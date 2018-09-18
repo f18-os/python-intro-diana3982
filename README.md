@@ -8,7 +8,8 @@ then will read thru the input file and count the number of instances of a specif
 
 # References:
 * Influenced from previously taking Networks with Dr Freudenthal and having submitted a similar lab.
-* wordCountTest.py
+* wordCountTest.py:
+  - https://github.com/s18-nets/s18-nets-python-intro-diana3982/blob/master/wordCount.py
 * https://docs.python.org/2.7/library/functions.html#sorted
 * https://docs.python.org/2/library/string.html
 * https://www.guru99.com/reading-and-writing-files-in-python.html#1
