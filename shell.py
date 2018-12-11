@@ -10,15 +10,14 @@ if len(sys.argv) is not 1: #this is a check to make sure user is running program
     print("Correct usage: shell.py")
     exit()
 
-def shell_script(usrin):
-
 
 while True:
-    line = sys.stdin.readlines()
-    print("what was read %s" % line)
-    for cmd in line:
+    for cmd in sys.stdin:
+        
+        line = sys.stdin.readlines()
+        print("what was read %s" % line)
         print("-------------------------------------")
         cmd.replace("\n", "")
-        os.system(cmd)
+        os.system(line)
         #os.system()
         break;
